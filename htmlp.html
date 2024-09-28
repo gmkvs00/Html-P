@@ -1,13 +1,86 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" href="imga.png">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        div .cont {
+            width: 100%;
+        }
+        div.cont div{
+            width: 33%;
+            float: left;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 3px outset black;
+            border-radius: 10px;
+
+        }
+
+        tr:hover {
+            background-color: blue;
+        }
+    </style>
 </head>
+
 <body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
     <h1 title="i am gaurav">Hello gaurav </h1>
     <hr>
+    <div class="cont">
+        <div style="background-color: antiquewhite;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+        <div style="background-color: aqua;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+        <div style="background-color: aquamarine;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+    </div>
+    <iframe src="sample.html" name="iframa" title="It will cahnge the back"frameborder="0" width="100%" height="300px"></iframe>
+
+    <p><a href="htmlp.html" target="iframa"> click me to change the link</a></p>
     <h2 style="font-size: 45px;color: red;"> Style my </h2>
     <pre style="background-color: aliceblue;">
         Hello My name is 
@@ -15,22 +88,36 @@
         boy is their any problem
     </pre>
     <h1 style="background-color:Tomato;">Tomato</h1>
-<h1 style="background-color:Orange;">Orange</h1>
-<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
-<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
-<h1 style="background-color:Gray;">Gray</h1>
-<h1 style="background-color:SlateBlue;">SlateBlue</h1>
-<h1 style="background-color:Violet;">Violet</h1>
-<h1 style="background-color:LightGray;">LightGray</h1>
-<h1 style="color:Tomato;">Hello World</h1>
-<p style="color:DodgerBlue;">Lorem ipsum...</p>
-<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
-<h1 style="border: 2px solid Tomato;">Hello World</h1>
+    <h1 style="background-color:Orange;">Orange</h1>
+    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+    <h1 style="background-color:Gray;">Gray</h1>
+    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+    <h1 style="background-color:Violet;">Violet</h1>
+    <h1 style="background-color:LightGray;">LightGray</h1>
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum...</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+    <h1 style="border: 2px solid Tomato;">Hello World</h1>
 
-<h1 style="border: 100px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border: 100px solid DodgerBlue;">Hello World</h1>
 
-<h1 style="border: 10px solid Violet;">Hello World</h1>
-<button onclick="document.location=''"></button>
+    <h1 style="border: 10px solid Violet;">Hello World</h1>
+    <button onclick="document.location=''"></button>
+
+    <table width="100%">
+        <tr>
+            <td>Name</td>
+            <th>Company</th>
+            <th>add</th>
+        </tr>
+        <th>Gaurav Mishra</th>
+        <th>martvally</th>
+        <th>noida</th>
+        <th>Hello</th>
+    </table>
+
 
 </body>
+
 </html>
